@@ -1,0 +1,30 @@
+﻿Build started 7/10/2014 8:14:26 AM.
+     1>Project "D:\Github\OpenGLEdxCourse\hw1-windows_VS2012\hw1-windows\hw1-windows.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp shaders.cpp Transform.cpp UCB\grader.cpp
+         grader.cpp
+     1>d:\github\opengledxcourse\hw1-windows_vs2012\hw1-windows\ucb\grader.h(58): warning C4099: 'Command' : type name first seen using 'class' now seen using 'struct'
+                 d:\github\opengledxcourse\hw1-windows_vs2012\hw1-windows\ucb\grader.h(26) : see declaration of 'Command'
+     1>d:\github\opengledxcourse\hw1-windows_vs2012\hw1-windows\ucb\grader.cpp(59): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\github\opengledxcourse\hw1-windows_vs2012\hw1-windows\ucb\grader.cpp(69): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\github\opengledxcourse\hw1-windows_vs2012\hw1-windows\ucb\grader.cpp(73): warning C4018: '<' : signed/unsigned mismatch
+         Transform.cpp
+     1>d:\github\opengledxcourse\hw1-windows_vs2012\hw1-windows\transform.h(18): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+         shaders.cpp
+     1>d:\github\opengledxcourse\hw1-windows_vs2012\hw1-windows\shaders.cpp(64): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+         main.cpp
+     1>d:\github\opengledxcourse\hw1-windows_vs2012\hw1-windows\ucb\grader.h(58): warning C4099: 'Command' : type name first seen using 'class' now seen using 'struct'
+                 d:\github\opengledxcourse\hw1-windows_vs2012\hw1-windows\ucb\grader.h(26) : see declaration of 'Command'
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Github\OpenGLEdxCourse\hw1-windows_VS2012\Debug\hw1-windows.exe" /INCREMENTAL /NOLOGO /LIBPATH:.\lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib glew32.lib glut32.lib glu32.lib opengl32.lib FreeImage.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Github\OpenGLEdxCourse\hw1-windows_VS2012\Debug\hw1-windows.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Github\OpenGLEdxCourse\hw1-windows_VS2012\Debug\hw1-windows.lib" /MACHINE:X86 Debug\main.obj
+         Debug\shaders.obj
+         Debug\Transform.obj
+         Debug\grader.obj
+         hw1-windows.vcxproj -> D:\Github\OpenGLEdxCourse\hw1-windows_VS2012\Debug\hw1-windows.exe
+     1>Done Building Project "D:\Github\OpenGLEdxCourse\hw1-windows_VS2012\hw1-windows\hw1-windows.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.35
